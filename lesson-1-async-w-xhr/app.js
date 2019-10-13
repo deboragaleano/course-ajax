@@ -1,7 +1,6 @@
 /*
-We set up a listener for when the form is submitted. This kicks off our async request, one to Unsplash and one to the NY Times. When the unsplash 
+We set up a listener for when the form is submitted. This kicks off our async request, one to Unsplash and one to the NY Times. When the unsplash
 request returns, it calls the addImage function and same for the addArticles function. Both of these functions convert the response from json, extract the data, and then add it to the page, and that's it*/
- 
 (function () {
     // selectors
     const form = document.querySelector('#search-form');
